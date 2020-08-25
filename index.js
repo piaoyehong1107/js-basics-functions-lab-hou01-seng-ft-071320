@@ -9,7 +9,7 @@ function distanceTravelledInFeet(stat, end){
 }
 
 function calculatesFarePrice(start, destination){
-  ler totalfeet = distanceTravelledInFeet(start, destination)
+  let totalfeet = distanceTravelledInFeet(start, destination)
   case totalfeet < 400:
     return 0 
   case totalfeet>=400 && totalfeet<=2000
