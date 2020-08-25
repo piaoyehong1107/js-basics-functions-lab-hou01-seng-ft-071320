@@ -7,6 +7,7 @@ function distanceFromHqInFeet(blocknum){
 function distanceTravelledInFeet(stat, end){
   return Math.abs((end-stat)*(264))
 }
+
 function calculatesFarePrice(start, destination){
   ler totalfeet = distanceTravelledInFeet(start, destination)
   case totalfeet < 400:
