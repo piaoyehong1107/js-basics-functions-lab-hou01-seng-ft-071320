@@ -11,13 +11,13 @@ function distanceTravelledInFeet(stat, end){
 function calculatesFarePrice(start, destination){
   let totalfeet = distanceTravelledInFeet(start, destination)
   switch (totalfeet){
-  case totalfeet < 400:
-    return 0 
-  case totalfeet>=400 && totalfeet<=2000
+  case totalfeet < 400;
+    return 0; 
+  case totalfeet>=400 && totalfeet<=2000;
     return totalfeet * 2
-  case totalfeet >2000
-    return 25
-  case totalfeet > 2500 
-    return 'No Ride'
+  case totalfeet >2000;
+    return 25;
+  case totalfeet > 2500 ;
+    return 'No Ride';
   }
 }
